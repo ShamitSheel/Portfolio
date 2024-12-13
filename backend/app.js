@@ -8,6 +8,8 @@ import {errorMiddleware} from "./middlewares/error.js"
 import messageRouter from "./routes/messageRouter.js"
 import userRouter from "./routes/userRouter.js"
 import timelineRouter from "./routes/timelineRouter.js"
+import applicationRouter from "./routes/softwareApplicationRouter.js"
+import skillRouter from "./routes/skillRouter.js"
 
 dotenv.config({path: "./config/config.env"});
 
@@ -35,7 +37,10 @@ app.use(
 app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/timeline", timelineRouter);
+app.use("/api/v1/softwareapplication", applicationRouter);
+app.use("/api/v1/skill", skillRouter);
 
 dbConnection();
 app.use(errorMiddleware);
+
 export default app;
