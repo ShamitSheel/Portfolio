@@ -720,6 +720,20 @@ footer p {
   backdrop-filter: blur(8px);
 }
 
+.linkedin-logo {
+  display: inline-grid;
+  place-items: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 4px;
+  background: #0a66c2;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
 .contact-section .primary-button:hover,
 .contact-section .secondary-button:hover {
   border-color: rgba(255, 112, 8, 0.6);
