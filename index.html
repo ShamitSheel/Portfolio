@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Shamit Sheel, a software developer building full-stack web applications with Angular, Spring Boot, MySQL, and microservice architecture."
+    />
+    <title>Shamit Sheel | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Shamit Sheel home">
+        <span>SS</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="icon-link" href="resume.html" aria-label="Open resume">
+        <i data-lucide="file-text"></i>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <p class="availability">Open to opportunities</p>
+          <h1>
+            <span>Shamit</span>
+            <em>Sheel.</em>
+          </h1>
+          <p class="type-line"><span id="typed-role">Full-stack developer</span><span class="cursor">|</span></p>
+          <p class="hero-text">
+            I like building complete applications where the interface, APIs, and database all make sense together.
+            My work focuses on Angular frontends, Spring Boot services, MySQL-backed features, and clean project structure.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="resume.html">
+              View Resume
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a class="secondary-button" href="#work">
+              See My Work
+            </a>
+            <a class="secondary-button" href="https://www.linkedin.com/in/shamitsheel/" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Profile highlights">
+          <div class="stat-card experience">
+            <span>Experience</span>
+            <strong>1 Year</strong>
+          </div>
+          <div class="stat-card domain">
+            <span>Role</span>
+            <strong>Java Full Stack</strong>
+          </div>
+          <div class="stat-card featured">
+            <span>Currently At</span>
+            <strong>Cognizant</strong>
+          </div>
+          <div class="stat-card stack">
+            <span>Focus</span>
+            <strong>Spring + Angular</strong>
+          </div>
+          <div class="stat-card education">
+            <span>Education</span>
+            <strong>B.Tech CSE</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Highlights">
+        <div>
+          <strong>Angular</strong>
+          <span>Frontend interfaces</span>
+        </div>
+        <div>
+          <strong>Spring Boot</strong>
+          <span>REST and services</span>
+        </div>
+        <div>
+          <strong>MySQL</strong>
+          <span>Relational data</span>
+        </div>
+        <div>
+          <strong>Microservices</strong>
+          <span>Gateway and discovery</span>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-kicker">
+          <span>A little about me</span>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy">
+            <h2>Building useful systems is a craft.</h2>
+            <p>
+              I am a Java Full Stack Developer with a B.Tech in Computer Science Engineering, comfortable moving
+              between frontend screens, backend services, database logic, and the small details that make an application
+              feel reliable.
+            </p>
+            <p>
+              My work sits at the intersection of <strong>Spring Boot depth and Angular clarity</strong>. I have
+              contributed to booking and reservation flows, built RESTful APIs, integrated MySQL, written service-layer
+              tests, and worked in Agile teams where shipping steady improvements matters.
+            </p>
+            <p>
+              Currently at <strong>Cognizant</strong>, I work in the Travel & Leisure domain on reservation-focused
+              systems. Before that, I interned at <strong>CodeBucket Solutions</strong>, improving responsive pages and
+              fixing frontend issues across browsers.
+            </p>
+          </div>
+          <div class="about-cards" aria-label="Developer notes">
+            <article>
+              <i data-lucide="code-2"></i>
+              <p>I enjoy turning rough requirements into clean APIs, useful screens, and working flows.</p>
+            </article>
+            <article>
+              <i data-lucide="search-check"></i>
+              <p>I like debugging the part where something technically works, but still does not feel right to use.</p>
+            </article>
+            <article>
+              <i data-lucide="layers-3"></i>
+              <p>Microservices, REST APIs, and database-backed features are the areas I keep sharpening.</p>
+            </article>
+            <article>
+              <i data-lucide="clipboard-check"></i>
+              <p>I am comfortable with Agile delivery, Jira tasks, bug fixes, change requests, and test coverage.</p>
+            </article>
+            <article>
+              <i data-lucide="sparkles"></i>
+              <p>I care about clarity more than complexity, but I enjoy building systems with real structure.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects that show both product flow and engineering structure.</h2>
+        </div>
+        <div class="projects-list">
+          <article class="project-feature">
+            <div class="project-content">
+              <span class="project-label">Full-stack system</span>
+              <h3>Smart Hotel Booking System</h3>
+              <p>
+                A hotel booking platform with an Angular frontend and Spring Boot backend services for users, hotels,
+                bookings, ratings, reviews, API routing, and service discovery.
+              </p>
+              <ul class="project-points">
+                <li>Built search, booking, reservation management, and admin workflows.</li>
+                <li>Implemented RESTful APIs with Hibernate and MySQL persistence.</li>
+                <li>Structured backend services with API Gateway and Eureka discovery.</li>
+              </ul>
+              <div class="tag-list" aria-label="Project technologies">
+                <span>Angular</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>Eureka</span>
+                <span>API Gateway</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/ShamitSheel/Smart-Hotel-Booking-System" target="_blank" rel="noreferrer">
+                  <i data-lucide="external-link"></i>
+                  Repository
+                </a>
+              </div>
+            </div>
+            <div class="project-metrics" aria-label="Project architecture">
+              <div>
+                <span>6</span>
+                <p>Backend services</p>
+              </div>
+              <div>
+                <span>1</span>
+                <p>Angular client</p>
+              </div>
+              <div>
+                <span>4</span>
+                <p>Data domains</p>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div>
+              <span class="project-label">Machine learning app</span>
+              <h3>Movie Recommendation System</h3>
+              <p>
+                A content-based recommendation app that suggests similar movies using cosine similarity and displays
+                real-time poster data through the TMDB API.
+              </p>
+            </div>
+            <div class="tag-list" aria-label="Project technologies">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>TMDB API</span>
+              <span>Cosine Similarity</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ShamitSheel/Recommendation-System" target="_blank" rel="noreferrer">
+                <i data-lucide="external-link"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional work across booking systems and responsive web interfaces.</h2>
+        </div>
+        <div class="experience-grid">
+          <article>
+            <span>Cognizant · Jun. 2025 - Aug. 2026</span>
+            <h3>Java Full Stack Developer</h3>
+            <p>
+              Contributed to Travel & Leisure reservation workflows using Java, Spring Boot, RESTful APIs, MySQL,
+              JUnit, Jira, and Agile delivery.
+            </p>
+          </article>
+          <article>
+            <span>CodeBucket Solutions · Jul. 2024 - Sep. 2024</span>
+            <h3>Software Intern</h3>
+            <p>
+              Developed responsive web pages with HTML and CSS, fixed frontend bugs, and improved cross-browser visual
+              consistency.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-column" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Stack</p>
+          <h2>Tools I use to turn requirements into working systems.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <i data-lucide="monitor-smartphone"></i>
+            <h3>Frontend</h3>
+            <p>Angular, TypeScript, HTML, CSS, Bootstrap, Tailwind CSS, responsive UI design.</p>
+          </div>
+          <div class="skill-group">
+            <i data-lucide="server"></i>
+            <h3>Backend</h3>
+            <p>Java, Spring Boot, REST APIs, Maven, API Gateway, Eureka service discovery.</p>
+          </div>
+          <div class="skill-group">
+            <i data-lucide="database"></i>
+            <h3>Database</h3>
+            <p>MySQL, JPA, Hibernate, schema design, relational data modeling.</p>
+          </div>
+          <div class="skill-group">
+            <i data-lucide="git-branch"></i>
+            <h3>Workflow</h3>
+            <p>GitHub, project structuring, debugging, deployment planning, API integration.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications</p>
+          <h2>Continuous learning around backend systems, AI, and problem solving.</h2>
+        </div>
+        <div class="timeline certifications">
+          <div class="timeline-item">
+            <span>Udemy</span>
+            <div>
+              <h3>Java Spring Framework, Spring Boot, Spring AI & Gen AI</h3>
+              <p>Focused on Java backend development, Spring application patterns, and AI-assisted backend concepts.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>Anthropic</span>
+            <div>
+              <h3>Claude Certified Architect - Foundations</h3>
+              <p>Strengthened understanding of AI-first workflows and practical model usage.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>HackerRank</span>
+            <div>
+              <h3>Intermediate Problem Solving</h3>
+              <p>Validated algorithmic and structured problem-solving fundamentals.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-kicker contact-kicker">
+          <span>Say hello</span>
+        </div>
+        <div>
+          <h2>Let us work together.</h2>
+          <p>
+            Open to full-stack roles, collaborations, and conversations about Java, Spring Boot, Angular, and building
+            useful applications.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary-button" href="mailto:shamitsheel7215@gmail.com">
+            <i data-lucide="mail"></i>
+            Email Me
+          </a>
+          <a class="secondary-button" href="resume.html">
+            <i data-lucide="file-down"></i>
+            Resume
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Shamit Sheel</p>
+      <a href="#top" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+      </a>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
