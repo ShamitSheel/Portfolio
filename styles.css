@@ -658,6 +658,23 @@ footer p {
   font-weight: 900;
 }
 
+.certificate-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: inherit;
+}
+
+.certificate-link svg {
+  width: 15px;
+  height: 15px;
+  color: var(--orange);
+}
+
+.certificate-link:hover {
+  color: var(--orange);
+}
+
 .contact-section {
   display: grid;
   justify-items: center;
