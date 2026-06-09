@@ -867,6 +867,10 @@ svg {
   gap: 18px;
 }
 
+.resume-project + .resume-project {
+  margin-top: 26px;
+}
+
 .resume-experience {
   display: grid;
   gap: 30px;
